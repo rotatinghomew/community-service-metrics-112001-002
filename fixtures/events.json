@@ -1,0 +1,74 @@
+[
+  {
+    "id": "T-1",
+    "case": "C-1",
+    "kind": "assign",
+    "actor": "grid-A",
+    "occurred_at": "2026-05-01T09:10",
+    "received_at": "2026-05-01T09:10",
+    "ref": ""
+  },
+  {
+    "id": "T-2",
+    "case": "C-1",
+    "kind": "transfer_offer",
+    "actor": "grid-A",
+    "occurred_at": "2026-05-01T11:00",
+    "received_at": "2026-05-01T11:03",
+    "ref": ""
+  },
+  {
+    "id": "T-3",
+    "case": "C-1",
+    "kind": "transfer_accept",
+    "actor": "dept-X",
+    "occurred_at": "2026-05-01T11:20",
+    "received_at": "2026-05-01T11:20",
+    "ref": "T-2"
+  },
+  {
+    "id": "T-4",
+    "case": "C-1",
+    "kind": "pause",
+    "actor": "dept-X",
+    "occurred_at": "2026-05-01T12:00",
+    "received_at": "2026-05-01T12:00",
+    "ref": "resident_material"
+  },
+  {
+    "id": "T-5",
+    "case": "C-1",
+    "kind": "resume",
+    "actor": "dept-X",
+    "occurred_at": "2026-05-02T08:00",
+    "received_at": "2026-05-02T08:00",
+    "ref": "T-4"
+  },
+  {
+    "id": "T-6",
+    "case": "C-2",
+    "kind": "transfer_offer",
+    "actor": "grid-B",
+    "occurred_at": "2026-05-01T11:30",
+    "received_at": "2026-05-01T11:30",
+    "ref": ""
+  },
+  {
+    "id": "T-7",
+    "case": "C-3",
+    "kind": "pause",
+    "actor": "grid-A",
+    "occurred_at": "2026-05-02T09:00",
+    "received_at": "2026-05-02T09:00",
+    "ref": "unknown"
+  },
+  {
+    "id": "T-8",
+    "case": "C-4",
+    "kind": "close",
+    "actor": "grid-C",
+    "occurred_at": "2026-05-02T14:00",
+    "received_at": "2026-05-03T09:00",
+    "ref": ""
+  }
+]

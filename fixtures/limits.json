@@ -1,0 +1,23 @@
+[
+  {
+    "kind": "设施",
+    "version": "L1",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-05-01",
+    "minutes": 1440
+  },
+  {
+    "kind": "设施",
+    "version": "L2",
+    "valid_from": "2026-05-01",
+    "valid_to": "",
+    "minutes": 2880
+  },
+  {
+    "kind": "民生",
+    "version": "L1",
+    "valid_from": "2026-01-01",
+    "valid_to": "",
+    "minutes": 4320
+  }
+]
